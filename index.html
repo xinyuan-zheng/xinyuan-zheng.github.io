@@ -4,23 +4,32 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Website</title>
-<style>
-    ul{
+<style>    
+    ul.list1{
         padding: 0;
         list-style: none;
         background: #f2f2f2;
     }
-    ul li{
+    ul.dropdown{
+        padding: 0;
+        list-style: none;
+        background: #f2f2f2;
+    }
+    ul.list1 li{
         display: inline-block;
         position: relative;
         line-height: 10px;
         text-align: left;
     }
-    ul li a{
+    ul.list1 li a{
         display: block;
         padding: 8px 12px;
     }
-    ul li a:hover{
+    ul.list1 li a:hover{
+        color: #fff;
+        background: #939393;
+    }
+    ul.dropdown li a:hover{
         color: #fff;
         background: #939393;
     }
@@ -32,7 +41,7 @@
         left: 0;
     }
     ul li:hover ul.dropdown{
-        display: block;	/* Display the dropdown */
+        display: block; /* Display the dropdown */
     }
     ul li ul.dropdown li{
         display: block;
@@ -41,20 +50,18 @@
   box-sizing: border-box;
 }
 
-/* Create two unequal columns that floats next to each other */
 .column {
   float: left;
   padding: 10px;
-  height: 400px; 
 }
 .left {
-  width: 25%;
+  width: 30%;
 }
 .middle {
   width: 2%;
 }
 .right {
-  width: 73%;
+  width: 68%;
 }
 /* Clear floats after the columns */
 .row:after {
@@ -67,16 +74,16 @@
 
 
 <body>
-<ul>
+<ul class= "list1">
     <li><a href="index.html">Home</a></li>
-    <li><a href="research.html">Research</a></li>
+    <li><a href="project.html">Project</a></li>
     <li><a href="watercolor.html">Watercolor</a></li>
     <li>
         <a href="translation.html">Translation&#9662;</a>
         <ul class="dropdown">
-        	<li><a href="#">11/2021</a></li>
-            <li><a href="#">10/2021</a></li>
-            <li><a href="#">09/2021</a></li>
+          <li><a href="translation_works/translation_Nov2021.html">11/2021</a></li>
+          <li><a href="translation_works/translation_Oct2021.html">10/2021</a></li>
+          <li><a href="translation_works/translation_Sep2021.html">09/2021</a></li>
         </ul>
     </li>
     <li><a href="contact.html">Contact</a></li>
@@ -86,20 +93,20 @@
 
 <div class="row">
   <div class="column left" style="background-color:#f2f2f2;">
-    <h2>Xinyuan Zheng</h2>
+    <b><font size="+2">Xinyuan Zheng</font></b><br>
+    <a href="mailto:xinyuan.zheng@yale.edu">xinyuan.zheng@yale.edu</a><br>
     <p>Hi, nice to meet you! <br><br>
       I am a <b>postgraduate research associate</b> at <a href="https://medicine.yale.edu/lab/blumenfeld/" target="_blank" rel="noopener noreferrer">Blumenfeld Lab</a>, <b>Yale Clinical Neurosciences Imaging Center</b> (CNIC), Yale School of Medicine. <br><br>
-
+      
   </div>
   <div class="column middle">
   </div>
   <div class="column right">
-    <br>
 
     My current projects focus on <b>machine learning</b> and statistical analysis for <b>MRI</b> and <b>EEG</b> datasets. 
     <p>I love <b>mathematics and statistics</b> (and modelling and algorithm)! </p>
-    <p>I studied <b>image analysis</b> and want to work on related projects. I am especially interested in <b>medical/clincal research</b>! It is just that I feel it can directly help people, and that keeps me motivated. I am currently working on epilepsy projects using data collected from animal models (rats and mice). </p>
-    <p>I use python for most of my projects, R for some old Bayesian research I did, and MATLAB for some neuroimaging related research. <br>(As you can tell, I am also learning a bit of html/CSS by building this website.) </p>
+    <p>I study <b>image analysis</b> and work on related projects. I am especially interested in <b>medical/clincal research</b>! It is just that I feel it can directly help people, and that keeps me motivated. I am currently working on epilepsy projects using data collected from animal models (rats and mice). </p>
+    <p>I use python for most of my projects, R for some old Bayesian research I did, and MATLAB for some neuroimaging related research. <br>(As you can tell, by building this website, I am also learning a bit of html/CSS!) </p>
 
 
     <br>
@@ -107,7 +114,7 @@
     </h3>
     <p>I obtained my bachelor's degree in Mathematics with Finance at University of Liverpool. </p>
 
-    <p>I enjoyed my time in Liverpool! I met teachers and friends, learnt a lot about applied mathematics, and did a lot of sketches of the beautiful architectures there while listening to Beatles. :-) </p>
+    <p>I enjoyed my time in Liverpool. I met great teachers and friends, learnt a lot about applied mathematics, and did a lot of sketches of the beautiful architectures there while listening to Beatles.</p>
 
     <p>I came to New York in 2019 and graduated from Columbia University this year, with a master's in Statistics. I studied Inference, Bayesian and Machine Learning. </p>
     
@@ -115,9 +122,7 @@
 
     <p>During my time at Columbia, I did deep learning and medical imaging related research with <a href=http://www.columbia.edu/~ula2/ target="_blank" rel="noopener noreferrer">Dr. Upmanu Lall</a> and <a href=https://datascience.columbia.edu/people/xiaofu-he/ target="_blank" rel="noopener noreferrer">Dr. Xiaofu He.</a></p>
 
-    I joined Blumenfeld lab at Yale after that, and I currently work closely with <a href=http://research.ucc.ie/profiles/C003/cian.mccafferty@ucc.ie target="_blank" rel="noopener noreferrer">Dr. Cian McCafferty</a> and Dr. Lim-Anna Sieu
-
-  development and implementation of advanced methods of quantitative data analysis
+    I joined Blumenfeld lab at Yale after my graduation, and I currently work with <a href=http://research.ucc.ie/profiles/C003/cian.mccafferty@ucc.ie target="_blank" rel="noopener noreferrer">Dr. Cian McCafferty</a> and Dr. Lim-Anna Sieu, focusing on the development of analysis methods for MRI.
 
 
     <p>

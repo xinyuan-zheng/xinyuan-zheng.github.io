@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Website</title>
+<style>
+    ul.list1{
+        padding: 0;
+        list-style: none;
+        background: #f2f2f2;
+    }
+    ul.dropdown{
+        padding: 0;
+        list-style: none;
+        background: #f2f2f2;
+    }
+    ul.list1 li{
+        display: inline-block;
+        position: relative;
+        line-height: 10px;
+        text-align: left;
+    }
+    ul.list1 li a{
+        display: block;
+        padding: 8px 12px;
+    }
+    ul.list1 li a:hover{
+        color: #fff;
+        background: #939393;
+    }
+    ul.dropdown li a:hover{
+        color: #fff;
+        background: #939393;
+    }
+    ul li ul.dropdown{
+        min-width: 80%; /* Set width of the dropdown */
+        display: none;
+        position: absolute;
+        z-index: 999;
+        left: 0;
+    }
+    ul li:hover ul.dropdown{
+        display: block; /* Display the dropdown */
+    }
+    ul li ul.dropdown li{
+        display: block;
+    }
+* {
+  box-sizing: border-box;
+}
+
+.list2 {
+  padding-left: 12px;
+}
+
+.column {
+  float: left;
+  padding: 10px;
+}
+.left {
+  width: 100px;
+}
+.right {
+  width: 80%;
+}
+</style>
+</head>
+
+
+<body>
+<ul class = "list1">
+    <li><a href="../index.html">Home</a></li>
+    <li><a href="../project.html">Project</a></li>
+    <li><a href="../watercolor.html">Watercolor</a></li>
+    <li>
+        <a href="../translation.html">Translation&#9662;</a>
+        <ul class="dropdown">
+          <li><a href="../translation_works/translation_Nov2021.html">11/2021</a></li>
+            <li><a href="../translation_works/translation_Oct2021.html">10/2021</a></li>
+            <li><a href="../translation_works/translation_Sep2021.html">09/2021</a></li>
+        </ul>
+    </li>
+    <li><a href="../contact.html">Contact</a></li>
+</ul>
+
+
+<div class="row">
+
+  <div class="column left" style="background-color:#f2f2f2;">
+    <br>
+    <b><a href="../translation.html">Translation</a></b>
+    <ul class = "list2">
+      <li><a href="../translation_works/translation_Nov2021.html">11/2021</a></li>
+      <li><a href="../translation_works/translation_Oct2021.html">10/2021</a></li>
+      <li><a href="../translation_works/translation_Sep2021.html">09/2021</a></li>
+    </ul>
+  </div>
+
+  <div class="column right">
+    <p style="margin-left:.5%; margin-right:.5%;"><b><font size="+1">Dec 2021 - latest research</font></b></p>
+    <p style="margin-left:.5%; margin-right:.5%;">English-Chinese translation and short summaries for the latest research, academic news or scientific articles I found to be interesting: </p>
+  </div>
+
+</div>
+
+
+</body>
+
+</html>
