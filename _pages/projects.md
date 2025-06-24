@@ -9,18 +9,18 @@ author_profile: true
 ### Cross-modality image generation for SV2A PET
 <div style="display: flex; align-items: center;">
   <img src="/images/mr2sv2a.png" alt="" style="width: 300px; margin-right: 20px;">
-  <p>This research developed an image translation method from T1w MRI (and/or [<sup>18</sup>F]FDG PET) to [<sup>11</sup>C]UCB-J SV2A brain PET. A 3D multi-stage residual U-Net with supervised attention was proposed for the image-to-image fast inference. Generating Synthetic PET Images of Synaptic Density Based on MR T1 Images, abstract submitted to <a href="https://jnm.snmjournals.org/content/65/supplement_2/242162.abstract">SNMMI 2024</a>, full paper submitted to <u>EJNMMI Physics</u>. </p>
+  <p>This research developed an image translation method from T1w MRI (and/or [<sup>18</sup>F]FDG PET) to [<sup>11</sup>C]UCB-J SV2A brain PET. A 3D multi-stage residual U-Net with supervised attention was proposed for the image-to-image fast inference. Generating Synthetic PET Images of Synaptic Density Based on MR T1 Images, abstract submitted to <a href="https://jnm.snmjournals.org/content/65/supplement_2/242162.abstract">SNMMI 2024</a>, full paper accepted at <a href='https://link.springer.com/article/10.1186/s40658-025-00744-5'>EJNMMI Physics</a> (2025). <a href='https://patents.google.com/patent/US20250111654A1/en'>US provisional patent application</a>: Methods for Generation of Synthetic SV2A PET from MRI Images. </p>
 </div>
 
 <div style="display: flex; align-items: center;">
-  <img src="/images/mr2sv2a_model.png" alt="" style="width: 300px; margin-right: 20px;">
-  <p>Generation of Synthetic Brain PET Images of Synaptic Density from MRI and FDG-PET using a Multi-stage Residual U-Net, abstract submitted to <a href="https://ieeexplore.ieee.org/document/10655600">IEEE MIC 2024</a>. US provisional patent application pending: Methods for Generation of Synthetic SV2A PET from MRI Images.</p>
+  <img src="/images/mr2sv2a_model1.png" alt="" style="width: 300px; margin-right: 20px;">
+  <p>Generation of Synthetic Brain PET Images of Synaptic Density from MRI and FDG-PET using a Multi-stage Residual U-Net, abstract submitted to <a href="https://ieeexplore.ieee.org/document/10655600">IEEE MIC 2024</a>. Full paper submitted to IEEE TRPMS. </p>
 </div>
 
 ### Noise reduction for NeuroEXPLORER: A Multi-Tracer Investigation
 <div style="display: flex; align-items: center;">
   <img src="/images/nx_denoise.png" alt="" style="width: 300px; margin-right: 20px;">
-  <p>This project aims to develop denoising models for the ultra-high-sensitivity NeuroEXPLORER (NX) brain PET images across multiple tracers. Modified U-Nets and DDIM were implemented for the task of noise reduction across multiple tracers and count levels. The unified 3D models performed robustly for tracers including [<sup>18</sup>F]FDG, [<sup>18</sup>F]SynVesT-1, [<sup>18</sup>F]Flubatine, [<sup>18</sup>F]FE-PE2I, [<sup>18</sup>F]FPEB, [<sup>11</sup>C]LSN3172176, [<sup>11</sup>C]raclopride and [<sup>11</sup>C]-(+)-PHNO. Deep Learning Based PET Denoising for NeuroEXPLORER: A Multi-Tracer Investigation, abstract submitted to <u>SNMMI 2025</u>. </p>
+  <p>This project aims to develop denoising models for the ultra-high-sensitivity NeuroEXPLORER (NX) brain PET images across multiple tracers. Modified U-Nets and DDIM were implemented for the task of noise reduction across multiple tracers and count levels. The unified 3D models performed robustly for tracers including [<sup>18</sup>F]FDG, [<sup>18</sup>F]SynVesT-1, [<sup>18</sup>F]Flubatine, [<sup>18</sup>F]FE-PE2I, [<sup>18</sup>F]FPEB, [<sup>11</sup>C]LSN3172176, [<sup>11</sup>C]raclopride and [<sup>11</sup>C]-(+)-PHNO. Deep Learning Based PET Denoising for NeuroEXPLORER: A Multi-Tracer Investigation, abstract submitted to <a href='https://jnm.snmjournals.org/content/66/supplement_1/252121'>SNMMI 2025</a>. </p>
 </div>
 
 ### Direct estimation of arterial input function from dynamic brain PET imaging
